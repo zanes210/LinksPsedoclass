@@ -23,3 +23,13 @@ a:active {
     color: white;
     background-color: black;
 }
+
+/* Shows a shadow around the given text */
+.textual {
+    border: 1px;
+    padding: 10px;
+}
+
+.textual:hover {
+    box-shadow: 5px 0px 25px black;
+}
